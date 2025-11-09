@@ -1,0 +1,88 @@
+/* Responsive adjustments */
+
+@media (max-width: 1200px) {
+    body {
+        margin: 30px;
+        padding: 20px 80px;
+        overflow-x: hidden;
+    }
+
+    .imagem-tenis {
+        width: 400px;
+        filter: drop-shadow(20px 30px 25px #161616);
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        margin: 20px;
+        padding: 20px 40px;
+    }
+
+    .caixa-principal {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .imagem-tenis {
+        width: 300px;
+        transform: rotate(-15deg);
+        filter: drop-shadow(15px 20px 20px #161616);
+        margin-bottom: 20px;
+    }
+
+    .caixa-texto {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+        padding: 10px 20px;
+        overflow-y: auto;
+    }
+
+    body::after {
+        display: none; /* Oculta texto gigante para não poluir o visual no mobile */
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .imagem-tenis {
+        width: 100%;
+        max-width: 250px;
+        transform: rotate(-10deg);
+        filter: drop-shadow(10px 15px 10px #161616);
+        margin-bottom: 15px;
+    }
+
+    .caixa-botoes {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
