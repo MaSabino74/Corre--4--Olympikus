@@ -10,3 +10,6 @@ function mudarVisual(cor, imagem) {
         tenis.classList.remove("troca-efeito")
     }, 500)
 }
+function adicionarAoCarrinho() {
+    alert("Adicionado ao carrinho");
+}
