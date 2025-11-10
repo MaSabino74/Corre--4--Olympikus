@@ -1,8 +1,10 @@
-/* Telas até 1200px */
+/* Responsive adjustments */
+
 @media (max-width: 1200px) {
     body {
         margin: 30px;
         padding: 20px 80px;
+        overflow-x: hidden;
     }
 
     .imagem-tenis {
@@ -15,7 +17,6 @@
     }
 }
 
-/* Telas até 900px */
 @media (max-width: 900px) {
     body {
         margin: 20px;
@@ -24,10 +25,9 @@
 
     .caixa-principal {
         flex-direction: column;
-        align-items: center;
-        gap: 30px;
+        align-items: center; /* Centraliza melhor no mobile */
+        gap: 30px; /* Adiciona espaço entre a imagem e o texto */
         height: auto;
-        text-align: center;
     }
 
     .imagem-tenis {
@@ -39,7 +39,7 @@
 
     .caixa-texto {
         max-width: 100%;
-        padding: 0 10px;
+        text-align: center; /* Garante centralização do conteúdo */
     }
 
     h1 {
@@ -48,17 +48,10 @@
 
     h4 {
         font-size: 24px;
-        margin-top: 10px;
-    }
-
-    .logo {
-        width: 90px;
-        top: 10px;
-        left: 10px;
+        margin-top: 10px; /* Evita sobreposição com logo */
     }
 }
 
-/* Telas até 600px */
 @media (max-width: 600px) {
     body {
         margin: 10px;
@@ -67,13 +60,30 @@
     }
 
     body::after {
-        display: none;
+        display: none; /* Oculta texto gigante para não poluir o visual no mobile */
     }
 
     .caixa-principal {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 20px; /* Espaço consistente entre elementos */
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 18px;
+        margin-top: 8px; /* Evita que encoste no h1 ou logo */
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
     }
 
     .imagem-tenis {
@@ -89,51 +99,9 @@
         max-width: 90%;
     }
 
-    h1 {
-        font-size: 32px;
-        text-align: center;
-    }
-
-    h4 {
-        font-size: 18px;
-        margin-top: 8px;
-        text-align: center;
-    }
-
-    p {
-        font-size: 14px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .logo {
-        width: 80px;
-        top: 8px;
-        left: 8px;
-    }
-
     .caixa-botoes {
-        justify-content: center;
+        flex-wrap: wrap;
         gap: 10px;
-    }
-}
-
-/* Celulares muito pequenos */
-@media (max-width: 400px) {
-    h1 {
-        font-size: 26px;
-    }
-
-    h4 {
-        font-size: 16px;
-    }
-
-    .imagem-tenis {
-        max-width: 200px;
-        transform: rotate(-5deg);
-    }
-
-    .logo {
-        width: 70px;
+        justify-content: center;
     }
 }
