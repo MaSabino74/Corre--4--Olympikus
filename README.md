@@ -1,12 +1,12 @@
 Olympikus - Corre 4
 
-📖 Sobre o projeto
+<h2 align = "center">📖 Sobre o projeto</h2>>
 
 Projeto Olympikus Corre 4 Este projeto é uma página web desenvolvida para apresentar o tênis Olympikus Corre 4, destacando suas principais características e funcionalidades de forma interativa e visualmente atrativa.
 
 Funcionalidades Apresentação do Produto: Exibe informações detalhadas sobre o Olympikus Corre 4, incluindo preço, descrição e imagens do produto.
 
-🎯 Funcionalidades
+<h2 align = "center">🎯 Funcionalidades</h2>>
 
 
 Layout moderno e estruturado
@@ -15,7 +15,7 @@ Seções informativas sobre o tenis Olympikus modelo Corre 4
 
 Design pensado na apresentação visual e na experiência do usuário
 
-💻 Tecnologias utilizadas
+<h2 align ="cener">💻 Tecnologias utilizadas</h2>
 
 Aqui estão as principais tecnologias utilizadas no desenvolvimento projeto:
 <br>
@@ -26,10 +26,10 @@ Aqui estão as principais tecnologias utilizadas no desenvolvimento projeto:
 </div>
 <br>
 
-📷 Imagem do Projeto
+📷 <h2 align="center">Imagem do Projeto</h2>
 
 
-## 🔗 Conecte-se Comigo
+<h2 align ="center">## 🔗 Conecte-se Comigo</h2>
 
 <a href="https://discord.com/channels/@me" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:markshop.dev1974@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
