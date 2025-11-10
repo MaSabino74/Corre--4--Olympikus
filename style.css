@@ -1,17 +1,19 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ===== BASE ===== */
 body {
     margin: 50px;
     padding: 20px 160px;
     background: #adff2f;
     color: #fff;
-    height: 100vh;
+    min-height: 100vh; /* trocado de height: 100vh para permitir expansão no mobile */
     font-family: "Noto Sans", sans-serif;
-    overflow: hidden;
+    overflow-x: hidden; /* impede scroll lateral */
     position: relative;
 }
 
@@ -40,14 +42,16 @@ body::after {
     z-index: 0;
 }
 
+/* ===== CABEÇALHO / LOGO ===== */
 .logo {
     width: 100px;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 20px;
+    left: 20px;
     z-index: 3;
 }
 
+/* ===== TIPOGRAFIA ===== */
 h4 {
     font-size: 30px;
 }
@@ -61,12 +65,13 @@ p {
     margin-bottom: 40px;
 }
 
+/* ===== BOTÃO ===== */
 .botao-carrinho {
     background: #a3be52;
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 19px;
-    color: #000000;
+    color: #000;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -77,6 +82,7 @@ p {
     color: #202020;
 }
 
+/* ===== IMAGEM PRINCIPAL ===== */
 .imagem-tenis {
     width: 500px;
     transform: rotate(-20deg);
@@ -89,25 +95,30 @@ p {
     transform: rotate(-25deg) translateY(-30px);
 }
 
+/* ===== CONTEINER PRINCIPAL ===== */
 .caixa-principal {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 75%;
+    height: auto; /* era 75% — removido para evitar cortes */
     position: relative;
     z-index: 1;
     gap: 20px;
+    flex-wrap: wrap; /* garante quebra no mobile */
 }
 
 .caixa-texto {
     max-width: 500px;
+    z-index: 2;
 }
 
+/* ===== BOTÕES DE CORES ===== */
 .caixa-botoes {
     z-index: 2;
     position: relative;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .botoes {
@@ -116,10 +127,13 @@ p {
     height: 59px;
     border-radius: 50%;
     cursor: pointer;
+    border: 2px solid #20202022;
+    transition: 0.3s;
 }
 
 .botoes:hover {
     opacity: 0.8;
+    transform: scale(1.05);
 }
 
 .botoes:active {
