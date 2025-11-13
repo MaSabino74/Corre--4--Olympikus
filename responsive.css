@@ -46,7 +46,7 @@
 
     /* Remove o gigantismo do fundo */
     body::after {
-        font-size: 45px;
+        font-size: 50px;
         opacity: 0.2;
         top: 30%;
         white-space: nowrap;
