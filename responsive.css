@@ -1,88 +1,103 @@
 /* Responsive adjustments */
 
-@media (max-width: 1200px) {
+/* ============================
+   RESPONSIVIDADE
+   ============================ */
+
+/* TABLETS */
+@media (max-width: 1024px) {
+
     body {
-        margin: 30px;
-        padding: 20px 80px;
-        overflow-x: hidden;
+        padding: 40px;
+        margin: 0;
+        overflow: auto;
+        height: auto;
     }
 
-    .imagem-tenis {
-        width: 400px;
-        filter: drop-shadow(20px 30px 25px #161616);
+    .caixa-principal {
+        gap: 40px;
+        height: auto;
     }
 
     h1 {
         font-size: 60px;
     }
-}
-
-@media (max-width: 900px) {
-    body {
-        margin: 20px;
-        padding: 20px 40px;
-    }
-
-    .caixa-principal {
-        flex-direction: column;
-        height: auto;
-        align-items: flex-start;
-    }
 
     .imagem-tenis {
-        width: 300px;
-        transform: rotate(-15deg);
-        filter: drop-shadow(15px 20px 20px #161616);
+        width: 380px;
+    }
+
+    .logo {
+        width: 90px;
+        top: 15px;
+        left: 15px;
+    }
+}
+
+/* CELULARES */
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+        margin: 0;
+        overflow: auto;
+        height: auto;
+    }
+
+    /* Remove o gigantismo do fundo */
+    body::after {
+        font-size: 65px;
+        opacity: 0.2;
+        top: 30%;
+    }
+
+    /* ------- LOGO ------- */
+    .logo {
+        position: relative;   /* <-- TIRA a sobreposição */
+        width: 70px;
+        margin-bottom: 15px;
+        left: 0;
+        top: 0;
+    }
+
+    /* ------- TEXTO ------- */
+    h4 {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 15px;
         margin-bottom: 20px;
+    }
+
+    /* ------- LAYOUT ------- */
+    .caixa-principal {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        height: auto;
+        gap: 25px;
     }
 
     .caixa-texto {
         max-width: 100%;
     }
 
-    h1 {
-        font-size: 45px;
-    }
-
-    h4 {
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 600px) {
-    body {
-        margin: 10px;
-        padding: 10px 20px;
-        overflow-y: auto;
-    }
-
-    body::after {
-        display: none; /* Oculta texto gigante para não poluir o visual no mobile */
-    }
-
-    h1 {
-        font-size: 32px;
-    }
-
-    h4 {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-
+    /* ------- IMAGEM ------- */
     .imagem-tenis {
-        width: 100%;
-        max-width: 250px;
+        width: 240px;
         transform: rotate(-10deg);
-        filter: drop-shadow(10px 15px 10px #161616);
-        margin-bottom: 15px;
+        margin: 20px auto;
     }
 
+    /* Botões de cores */
     .caixa-botoes {
-        flex-wrap: wrap;
-        gap: 10px;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
     }
 }
