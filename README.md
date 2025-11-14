@@ -27,7 +27,7 @@ Aqui estão as principais tecnologias utilizadas no desenvolvimento projeto:
 <br>
 
 <h2 align="center">📷 Imagem do Projeto</h2>
-
+<img align = "center" alt="imagem do projeto" src="https://github.com/MaSabino74/Corre--4--Olympikus/blob/main/Corre_4_Viewer.png">
 
 <h2 align ="center">## 🔗 Conecte-se Comigo</h2>
 
