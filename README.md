@@ -15,14 +15,14 @@ Seções informativas sobre o tenis Olympikus modelo Corre 4
 
 Design pensado na apresentação visual e na experiência do usuário
 
-<h2 align-items ="center">💻 Tecnologias utilizadas</h2>
+<h2 align ="center">💻 Tecnologias utilizadas</h2>
 
 Aqui estão as principais tecnologias utilizadas no desenvolvimento projeto:
 <br>
 <div style=display: flex>
-  <img align-items="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img aling-items="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img aling-items="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 <br>
 
