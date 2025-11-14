@@ -26,10 +26,10 @@ Aqui estão as principais tecnologias utilizadas no desenvolvimento projeto:
 </div>
 <br>
 
-<h2 aling-items="center">📷 Imagem do Projeto</h2>
-<img aling-items="center" alt="imagem do projeto" src="https://github.com/MaSabino74/Corre--4--Olympikus/blob/main/Corre_4_Viewer.png">
+<h2 aling ="center">📷 Imagem do Projeto</h2>
+<img aling ="center" alt="imagem do projeto" src="https://github.com/MaSabino74/Corre--4--Olympikus/blob/main/Corre_4_Viewer.png">
 
-<h2 aling-items ="center">## 🔗 Conecte-se Comigo</h2>
+<h2 aling ="center">## 🔗 Conecte-se Comigo</h2>
 
 <a href="https://discord.com/channels/@me" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:markshop.dev1974@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
