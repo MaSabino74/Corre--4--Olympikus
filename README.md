@@ -15,21 +15,21 @@ Seções informativas sobre o tenis Olympikus modelo Corre 4
 
 Design pensado na apresentação visual e na experiência do usuário
 
-<h2 align ="cener">💻 Tecnologias utilizadas</h2>
+<h2 align-items ="center">💻 Tecnologias utilizadas</h2>
 
 Aqui estão as principais tecnologias utilizadas no desenvolvimento projeto:
 <br>
-<div style="display: inline_block">
-  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<div style=display: flex>
+  <img align-items="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img aling-items="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img aling-items="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 <br>
 
-<h2 align="center">📷 Imagem do Projeto</h2>
-<img align="center" alt="imagem do projeto" src="https://github.com/MaSabino74/Corre--4--Olympikus/blob/main/Corre_4_Viewer.png">
+<h2 aling-items="center">📷 Imagem do Projeto</h2>
+<img aling-items="center" alt="imagem do projeto" src="https://github.com/MaSabino74/Corre--4--Olympikus/blob/main/Corre_4_Viewer.png">
 
-<h2 align ="center">## 🔗 Conecte-se Comigo</h2>
+<h2 aling-items ="center">## 🔗 Conecte-se Comigo</h2>
 
 <a href="https://discord.com/channels/@me" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:markshop.dev1974@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
